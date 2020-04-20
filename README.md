@@ -4,3 +4,8 @@
 
 
 # 地址拆分匹配
+import addressParse, {parseArea} from 'addressParse.js';
+ ## 初始化数据用于智能拆分地址
+    parseArea(areaList);
+## 具体地址
+    const result = addressParse('安徽省六安市金安区***小区，xbu，18888888888');
