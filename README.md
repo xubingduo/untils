@@ -9,3 +9,5 @@ import addressParse, {parseArea} from 'addressParse.js';
     parseArea(areaList);
 ## 具体地址
     const result = addressParse('安徽省六安市金安区***小区，xbu，18888888888');
+## uniapp打包 dev.js
+  "predev:mp-weixin-test": "node ./test.js",
